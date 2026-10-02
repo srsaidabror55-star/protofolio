@@ -8,15 +8,14 @@ Pure HTML/CSS/JS. No backend, no build step. GSAP, ScrollTrigger and Lenis are i
 3. Or just drag the folder onto https://app.netlify.com/drop .
 
 ## Contact form (Netlify Forms)
-The form is already set up (`data-netlify="true"`, honeypot field). After the first deploy, messages appear in
-Netlify > your site > Forms > contact. Turn on email notifications under Forms > Settings & usage > Form notifications.
-Set the notification recipient to `srsaidabror55@gmail.com` in Netlify > your site > Forms > Settings & usage > Form notifications.
+The form is set up (`data-netlify="true"`, honeypot field). Submissions appear under Netlify > your site > Forms > contact.
+Email notifications are enabled for `srsaidabror55@gmail.com` in the Netlify Forms settings.
 The form does not work on `localhost`, only on the deployed Netlify site.
 
 ## Change your content
 Edit the profile values, social links and project list in `build.py`, then run `python build.py` to regenerate the page.
 The Projects section currently lists the public repositories for `srsaidabror55-star`.
-Also replace `https://example.netlify.app` (canonical/Open Graph) in `index.html`, `robots.txt` and `sitemap.xml` with your real address.
+The canonical URL, Open Graph metadata, `robots.txt` and `sitemap.xml` use `https://saidabrordev.netlify.app`. If the site address changes, update `site` in `build.py` and run `python build.py`.
 
 Optional: `build.py` regenerates `index.html` from the lists at the top of that file (`python build.py`).
 Use either way, but not both, or your direct edits will be overwritten.
