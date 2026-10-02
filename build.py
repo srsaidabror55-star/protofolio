@@ -10,7 +10,7 @@ PROFILE = dict(
     about_title="Backends that stay calm under load.",
     about=["I'm a backend developer from Tashkent who likes software that is boring in the best way: predictable, documented and easy to change.",
            "I work mostly with Python and Django, design the database first, and ship with Docker so what runs on my laptop runs on the server."],
-    stats=[(4, "Projects completed"), (10, "Technologies"), (3, "Years learning"), (5, "Clients")],
+    stats=[(9, "Projects completed"), (10, "Technologies"), (3, "Years learning"), (5, "Clients")],
     roles=["Python Backend Developer", "REST API Developer", "Telegram Bot Developer", "Django Specialist"],
 )
 SOCIALS = [("github", "GitHub", "https://github.com/srsaidabror55-star"), ("telegram", "Telegram", "https://t.me/"), ("linkedin", "LinkedIn", "https://www.linkedin.com/")]
